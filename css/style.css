@@ -1,0 +1,65 @@
+@import url(reset.css);
+
+body {
+    font: 13px/1.4 Arial, Verdana, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    min-width: 960px;
+    max-width: 1200px;
+    /*border: 2px solid #ff0000;*/
+    margin: 0 auto;
+    /*overflow: hidden;*/
+}
+
+#logo {
+    width: 241px;
+    float: left;
+    margin-top: 44px;
+    margin-bottom: 42px;
+    margin-left: 10px;
+}
+
+#baner {
+    width: 468px;
+    height: 60px;
+    float: right;
+    margin-top: 34px;
+    margin-right: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+#top_menu {
+    height: 49px;
+    background: url(../images/topmenu_bg.png) repeat-x; /*repeat-x - св-во которое растягивает картинку только по оси X горизонтали*/
+}
+
+#inner_menu {
+    min-width: 960px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#inner_menu li {
+    float: left;
+    text-transform: uppercase;
+}
+
+#inner_menu a {
+    color: #ebebeb;
+    font-size: 12px;
+    padding: 16px 15px;
+    display: block;
+
+}
+
+#inner_menu a:hover {
+    background: url(../images/menu_hover.png) repeat-x;
+}
