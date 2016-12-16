@@ -163,3 +163,23 @@ h2 {
     width: 120px;
     height: 15px;
 }
+
+.first_row, .second_row {
+    width: 270px;
+    margin: 0 auto;
+
+}
+
+.left {
+    float: left;
+    display: block;
+}
+
+.right {
+    float: right;
+    display: block;
+}
+
+.second_row {
+    margin-top: 14px;
+}
