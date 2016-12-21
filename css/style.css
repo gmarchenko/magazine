@@ -238,6 +238,10 @@ h2 {
     padding-top: 7px;
 }
 
+#footer {
+    min-width: 960px;
+}
+
 #footer_top {
     height: 19px; /*высота картинки, фон футера- верхнего*/
     background: url(../images/footertop_bg_new.png) repeat-x;
@@ -252,4 +256,8 @@ h2 {
     width: 30%;
     margin-right: 5%;
     float: left;
+}
+
+#footer_box {
+    margin-right: 0;
 }
